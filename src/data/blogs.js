@@ -10,6 +10,6 @@ module.exports = [
     imageUrl:
       "images/blog/chetgpt4.jpg",
     fullBlogLink:
-      "https://readtechblog/blog?blog=chatgpt-4-the-next-evolution-in-natural-language-processing",
+      "https://readtechblog.tech/blog?blog=chatgpt-4-the-next-evolution-in-natural-language-processing",
   },
 ];
