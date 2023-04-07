@@ -1,0 +1,224 @@
+<%- include('../../includes/head.ejs') %>
+<script type="text/javascript">
+    const navigateToUserLink = function () {
+        console.log("efdf")
+      location.href =<%- JSON.stringify(link) %>  
+    }
+  </script>
+  </head>
+  <body>
+    <div id="wrapper">
+<%- include('../../includes/navigation.ejs') %>
+
+        <section class="section lb m3rem">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                        <div class="page-wrapper">
+                            <div class="blog-title-area">
+                                <ol class="breadcrumb hidden-xs-down">
+                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                                    <li class="breadcrumb-item active"><%= blogDetails.title%></li>
+                                </ol>
+
+                                <span class="color-yellow"><a href="#" title=""><%= blogDetails.category%></a></span>
+
+                                <h3><%= blogDetails.title%></h3>
+
+                                <div class="blog-meta big-meta">
+                                    <small><a href="#" title=""><%= blogDetails.date%></a></small>
+                                    <small><a href="blog-author.html" title=""><%= blogDetails.author%></a></small>
+                                </div><!-- end meta -->
+
+                               
+                            </div><!-- end title -->
+
+                            <div class="single-post-media">
+                                <img src="images/blog/chetgpt4.jpg" alt="" class="img-fluid">
+                            </div><!-- end media -->
+
+                            <div class="blog-content">  
+                                <div class="pp">
+                                    <p>ChatGPT-4 is  a state-of-the-art language model based on the GPT-3 architecture. ChatGPT-4 is an incredible tool that has revolutionized the way we interact with technology and has opened up endless possibilities for natural language processing. Natural language processing (NLP) has come a long way over the years, and ChatGPT-4 is the latest advancement in this field. It has been trained on a massive amount of data and is capable of understanding and processing natural language at an incredibly high level. This makes it an incredibly powerful tool for a wide range of applications.</p>
+
+                                    <p>One of the key benefits of ChatGPT-4 is that it can understand context and can generate responses that are appropriate to the situation. This means that it can be used in a variety of applications, including chatbots, virtual assistants, and even customer service applications. With ChatGPT-4, businesses can provide their customers with a more personalized and natural experience, which can lead to increased customer satisfaction and loyalty.</p>
+
+                                    <p>ChatGPT-4 is also incredibly flexible, as it can be trained on a variety of data sources and can be customized to fit the needs of specific applications. This means that businesses can tailor their use of ChatGPT-4 to their unique needs and goals, which can lead to even more powerful results.</p>
+                                </div><!-- end pp -->
+
+                                <img src="images/blog/chetgpt4WithOpenAILogo.jpg" alt="" class="img-fluid img-fullwidth">
+
+                                <div class="pp">
+                                    <p>Of course, like any technology, there are also potential downsides to ChatGPT-4. One concern is that it could be used to spread misinformation or generate fake news. However, it's important to note that ChatGPT-4 is just a tool, and it's up to humans to use it responsibly.</p>
+
+                                    <p>In conclusion, ChatGPT-4 is an incredibly powerful language model that has the potential to revolutionize the way we interact with technology. It can be used in a variety of applications, from chatbots to virtual assistants, and has the potential to provide businesses with a more personalized and natural way to interact with their customers. While there are potential downsides to the technology, it's up to us as humans to use it responsibly and ensure that it's used for the greater good.</p>
+
+                                    <p>One of the most impressive features of ChatGPT-4 is its ability to generate natural language responses that are almost indistinguishable from those of a human. This is achieved through its training on a massive amount of data, which allows it to understand the nuances of language and context. As a result, it can generate responses that are not only grammatically correct but also contextually appropriate.</p>
+
+                                    <p><img src="images/blog/chatgptWordLength.jpg" class="float-left" width="340" alt="">This opens up many potential applications for ChatGPT-4 beyond just customer service or chatbots. For example, it could be used in the legal field to help lawyers draft contracts or analyze legal documents. It could also be used in the medical field to analyze patient data or help doctors diagnose illnesses. The possibilities are endless, and as the technology continues to advance, we will likely see even more innovative applications of ChatGPT-4.</p>
+
+                                    <p>Another potential benefit of ChatGPT-4 is its ability to learn from its interactions with humans. This means that over time, it could become even more accurate and effective at processing natural language. As a result, it could become an even more valuable tool for businesses and organizations looking to improve their customer interactions or streamline their operations.</p>
+
+                                    <p>However, as with any powerful technology, there are also potential risks and downsides to consider. For example, there is a risk that ChatGPT-4 could be used to spread propaganda or disinformation. Additionally, there is a concern that it could replace human jobs, particularly in fields such as customer service or data analysis. </p>
+                                    <p>Overall, ChatGPT-4 represents a significant advancement in the field of natural language processing and has the potential to transform the way we interact with technology. While there are potential downsides to consider, it's important to approach this technology with a responsible and ethical mindset to ensure that it's used for the greater good.</p>
+                                </div><!-- end pp -->
+                            </div><!-- end content -->
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="banner-spot clearfix">
+                                        <div class="banner-img">
+                                            <img src="upload/banner_01.jpg" alt="" class="img-fluid">
+                                        </div><!-- end banner-img -->
+                                    </div><!-- end banner -->
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+
+                            <hr class="invis1">
+
+                            <hr class="invis1">
+
+                            <div class="custombox clearfix">
+                                <h4 class="small-title">You may also like</h4>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="blog-box">
+                                            <div class="post-media">
+                                                <a href="#" title="">
+                                                    <img src="upload/market_blog_02.jpg" alt="" class="img-fluid">
+                                                    <div class="hovereffect">
+                                                        <span class=""></span>
+                                                    </div><!-- end hover -->
+                                                </a>
+                                            </div><!-- end media -->
+                                            <div class="blog-meta">
+                                                <h4><a href="#" title="">We are guests of ABC Design Studio</a></h4>
+                                                <small><a href="blog-category-01.html" title="">Trends</a></small>
+                                                <small><a href="blog-category-01.html" title="">21 July, 2017</a></small>
+                                            </div><!-- end meta -->
+                                        </div><!-- end blog-box -->
+                                    </div><!-- end col -->
+
+                                    <div class="col-lg-6">
+                                        <div class="blog-box">
+                                            <div class="post-media">
+                                                <a href="#" title="">
+                                                    <img src="upload/market_blog_03.jpg" alt="" class="img-fluid">
+                                                    <div class="hovereffect">
+                                                        <span class=""></span>
+                                                    </div><!-- end hover -->
+                                                </a>
+                                            </div><!-- end media -->
+                                            <div class="blog-meta">
+                                                <h4><a href="#" title="">Nostalgia at work with family</a></h4>
+                                                <small><a href="blog-category-01.html" title="">News</a></small>
+                                                <small><a href="blog-category-01.html" title="">20 July, 2017</a></small>
+                                            </div><!-- end meta -->
+                                        </div><!-- end blog-box -->
+                                    </div><!-- end col -->
+                                </div><!-- end row -->
+                            </div><!-- end custom-box -->
+
+                            <hr class="invis1">
+
+                            <hr class="invis1">
+
+                            <div class="custombox clearfix">
+                                <h4 class="small-title">Leave a Reply</h4>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <form class="form-wrapper">
+                                            <input type="text" class="form-control" placeholder="Your name">
+                                            <input type="text" class="form-control" placeholder="Email address">
+                                            <input type="text" class="form-control" placeholder="Website">
+                                            <textarea class="form-control" placeholder="Your comment"></textarea>
+                                            <button type="submit" class="btn btn-primary">Submit Comment</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end page-wrapper -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="sidebar">
+                            <div class="widget">
+                                <h2 class="widget-title">Recent Posts</h2>
+                                <div class="blog-list-widget">
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="w-100 justify-content-between">
+                                                <img src="upload/small_07.jpg" alt="" class="img-fluid float-left">
+                                                <h5 class="mb-1">5 Beautiful buildings you need to before dying</h5>
+                                                <small>12 Jan, 2016</small>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="w-100 justify-content-between">
+                                                <img src="upload/small_08.jpg" alt="" class="img-fluid float-left">
+                                                <h5 class="mb-1">Let's make an introduction for creative life</h5>
+                                                <small>11 Jan, 2016</small>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                            <div class="w-100 last-item justify-content-between">
+                                                <img src="upload/small_09.jpg" alt="" class="img-fluid float-left">
+                                                <h5 class="mb-1">Did you see the most beautiful sea in the world?</h5>
+                                                <small>07 Jan, 2016</small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div><!-- end blog-list -->
+                            </div><!-- end widget -->
+
+                            <div id="" class="widget">
+                                <h2 class="widget-title">Advertising</h2>
+                                <div class="banner-spot clearfix">
+                                    <div class="banner-img">
+                                        <img src="upload/banner_03.jpg" alt="" class="img-fluid">
+                                    </div><!-- end banner-img -->
+                                </div><!-- end banner -->
+                            </div><!-- end widget -->
+
+                            <div class="widget">
+                                <h2 class="widget-title">Instagram Feed</h2>
+                                <div class="instagram-wrapper clearfix">
+                                    <a class="" href="#"><img src="upload/small_09.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="upload/small_01.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="upload/small_02.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="upload/small_03.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="upload/small_04.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="upload/small_05.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="upload/small_06.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="upload/small_07.jpg" alt="" class="img-fluid"></a>
+                                    <a href="#"><img src="upload/small_08.jpg" alt="" class="img-fluid"></a>
+                                </div><!-- end Instagram wrapper -->
+                            </div><!-- end widget -->
+
+                            <div class="widget">
+                                <h2 class="widget-title">Popular Categories</h2>
+                                <div class="link-widget">
+                                    <ul>
+                                        <li><a href="#">Marketing <span>(21)</span></a></li>
+                                        <li><a href="#">SEO Service <span>(15)</span></a></li>
+                                        <li><a href="#">Digital Agency <span>(31)</span></a></li>
+                                        <li><a href="#">Make Money <span>(22)</span></a></li>
+                                        <li><a href="#">Blogging <span>(66)</span></a></li>
+                                        <li><a href="#">Entertaintment <span>(11)</span></a></li>
+                                        <li><a href="#">Video Tuts <span>(87)</span></a></li>
+                                    </ul>
+                                </div><!-- end link-widget -->
+                            </div><!-- end widget -->
+                        </div><!-- end sidebar -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+            <% if (showGetLinkButton) { %>
+                <button  onclick="navigateToUserLink()" type="button"  style="background-color: blue;color: white;" >Get Link</button>
+                <%} %>
+        </section>
+
+<%- include('../../includes/end.ejs') %>
