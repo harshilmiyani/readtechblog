@@ -1,0 +1,29 @@
+<div class="widget">
+    <h2 class="widget-title">Recent Posts</h2>
+    <div class="blog-list-widget">
+      <div class="list-group">
+        <% for(var i=0; i < 3; i++) { %>
+          <a
+          href="<%= blogs[i]?.fullBlogLink %>"
+          class="list-group-item list-group-item-action flex-column align-items-start"
+        >
+          <div class="w-100 justify-content-between">
+            <img
+              src="<%= blogs[i]?.imageUrl %>"
+              alt=""
+              class="img-fluid float-left"
+            />
+            <small> <%= blogs[i]?.date %> </small>
+
+            <h5 class="mb-1">
+             <%= blogs[i]?.title %> 
+            </h5>
+          </div>
+        </a>
+       <% } %>
+      
+      </div>
+    </div>
+    <!-- end blog-list -->
+  </div>
+  <!-- end widget -->
