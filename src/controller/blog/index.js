@@ -1,5 +1,4 @@
 const blogs = require("../../data/blogs")
-
 exports.getAllBlog = (req, res, next) => {
   return res.render("blog/index",{
     blogs: blogs
@@ -16,7 +15,7 @@ exports.getBlog = (req, res, next) => {
     return res.render(`blog/blogs/${blogId}`, {
       showGetLinkButton: !!name,
       link: "https://t.me/MovieMood1221_bot?start=authToken",
-      blogDetails:blogDetails
+      blogDetails:blogDetails,
     });
   } else {
     res.redirect("blogs");
