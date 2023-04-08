@@ -16,6 +16,7 @@ exports.getBlog = (req, res, next) => {
       showGetLinkButton: !!name,
       link: "https://t.me/MovieMood1221_bot?start=authToken",
       blogDetails:blogDetails,
+      blogs: blogs
     });
   } else {
     res.redirect("blogs");
